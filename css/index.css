@@ -159,12 +159,6 @@ footer img {
 .landing-content .browse {
   display: flex;
   flex-direction: column;
-}
-.landing-content h2 {
-  width: 100%;
-  text-align: center;
-}
-.landing-content .science {
   width: 40%;
   height: 300px;
   color: #ffffff;
@@ -173,53 +167,34 @@ footer img {
   margin: 20px;
   padding: 20px;
 }
-.landing-content .science img {
+.landing-content .browse img {
+  height: 33.4%;
+  width: 23.2%;
   margin: auto;
 }
-.landing-content h4 {
+.landing-content .browse h4 {
   margin: 0 auto;
 }
 .landing-content .technology {
-  width: 40%;
-  height: 300px;
-  border: 1px solid #ffffff;
-  border-radius: 2px;
   background: #ffffff;
-  margin: 20px;
-  padding: 20px;
-}
-.landing-content .technology img {
-  margin: auto;
-  height: 100px;
-  width: 100px;
+  color: black;
 }
 .landing-content .engineering {
-  width: 40%;
-  height: 300px;
-  border: 1px solid #ffffff;
-  border-radius: 2px;
   background-color: #ffffff;
-  margin: 20px;
-  padding: 20px;
+  color: black;
 }
-.landing-content .engineering img {
-  height: 100px;
-  width: 100px;
-  margin: auto;
+@media (max-width: 892px) {
+  .landing-content .browse {
+    width: 75%;
+  }
+  .landing-content .browse img {
+    width: 16.1%;
+  }
 }
-.landing-content .mathematics {
-  width: 40%;
-  height: 300px;
-  color: #ffffff;
-  border: 1px solid #ffffff;
-  border-radius: 2px;
-  margin: 20px;
-  padding: 20px;
-}
-.landing-content .mathematics img {
-  height: 100px;
-  width: 100px;
-  margin: auto;
+@media (max-width: 500px) {
+  .landing-content .browse img {
+    width: 23.2%;
+  }
 }
 .card {
   border-radius: 2px;
@@ -300,14 +275,12 @@ footer img {
   background-color: #2A304A;
   display: flex;
 }
-.features-content h2 {
-  text-align: center;
-}
 .features-content .features {
   width: 30%;
   display: flex;
   flex-direction: column;
-  padding-left: 34px;
+  padding-left: 1.7%;
+  padding-right: 1.7%;
 }
 .features-content .features h4 {
   text-align: center;
@@ -321,7 +294,7 @@ footer img {
 }
 .features-content .features img {
   margin: 0 auto 20px;
-  width: 200px;
+  width: 65%;
   height: 200px;
 }
 .features-content .second-feature {
@@ -338,11 +311,9 @@ footer img {
     height: 300px;
     padding-left: 0;
   }
-
   .features-content .features h2 {
     margin: 0 auto;
   }
-  
   .features-content .features h4 {
     padding-top: 20px;
     border-top: 1px solid #242943;
@@ -376,6 +347,10 @@ body {
   margin: 60px auto 0;
 }
 @media (max-width: 500px) {
+  body {
+    width: 100%;
+    margin: 140px auto 0;
+  }
 }
 body h1 {
   color: #ffffff;
@@ -389,28 +364,20 @@ body h2 {
 body h3 {
   color: #ffffff;
 }
-@media (max-width: 500px) {
-  body {
-    width: 100%;
-    margin: 140px auto 0;
-  }
-}
 .teamContent {
   margin: auto;
-  width: 60%;
+  width: 100%;
 }
 @media only screen and (max-width: 800px) {
   .teamContent {
     width: 90%;
   }
 }
-
 @media only screen and (max-width: 500px) {
   .teamContent {
     margin-top: 200px;
   }
 }
-
 .teamContent .bookStack {
   margin: auto;
 }
@@ -455,7 +422,6 @@ body h3 {
     margin-top: 5%;
     padding: 0;
   }
-
 }
 .teamContent .bookStack .teamMemberLeft .member-open .aboutStatement {
   height: 40%;
@@ -605,10 +571,8 @@ body h3 {
   background: #55ACEE;
   color: white;
 }
-
 @media only screen and (max-width: 500px) {
   .navMobile {
     height: 150px;
   }
 }
-
