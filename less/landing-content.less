@@ -7,12 +7,6 @@
     .browse {
         display: flex;
         flex-direction: column;
-    }
-    h2 {
-        width: 100%;
-        text-align: center;
-    }
-    .science {
         width: 40%;
         height: 300px;
         color: #ffffff;
@@ -20,67 +14,43 @@
         border-radius: 2px;
         margin: 20px;
         padding: 20px;
-        // h4 {
-        //     text-align: center;
-        // }
         img {
+            // height: 100px;
+            height: 33.4%;
+            width: 23.2%;
             margin: auto;
         }
-    }
-    h4 {
-        margin: 0 auto;
+        h4 {
+            margin: 0 auto;
+        }
     }
     .technology {
-        width: 40%;
-        height: 300px;
-        border: 1px solid #ffffff;
-        border-radius: 2px;
         background: #ffffff;
+        color: black;
         // color: #d8ac87;
-        margin: 20px;
-        padding: 20px;
-        h4 {
-            // text-align: center;
-        }
-        img {
-            margin: auto;
-            height: 100px;
-            width: 100px;
-        }
     }
     .engineering {
-        width: 40%;
-        height: 300px;
-        border: 1px solid #ffffff;
-        border-radius: 2px;
         background-color: #ffffff;
+        color: black;
         // color: #d8ac87;
-        margin: 20px;
-        padding: 20px;
-        h4 {
-            // text-align: center;
-        }
-        img {
-            height: 100px;
-            width: 100px;
-            margin: auto;
+    }
+}
+@media(max-width: 892px) {
+    .landing-content {
+        .browse {
+            width: 75%;
+            img {
+                width: 16.1%;
+            }
         }
     }
-    .mathematics {
-        width: 40%;
-        height: 300px;
-        color: #ffffff;
-        border: 1px solid #ffffff;
-        border-radius: 2px;
-        margin: 20px;
-        padding: 20px;
-        h4 {
-            // text-align: center;
-        }
-        img {
-            height: 100px;
-            width: 100px;
-            margin: auto;
+}
+@media(max-width: 500px) {
+    .landing-content {
+        .browse {
+            img {
+                width: 23.2%;
+            }
         }
     }
 }
