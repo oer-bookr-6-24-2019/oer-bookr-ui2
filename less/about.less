@@ -1,9 +1,13 @@
 .teamContent{
   margin: auto;
-  width: 60%;
+  width: 100%;
 
   @media only screen and (max-width: 800px){
     width: 90%;
+  }
+
+  @media only screen and (max-width: 500px){
+    margin-top: 200px;
   }
 
   .bookStack{
@@ -27,20 +31,25 @@
         height: 200px;
         width: 75%;
         margin: auto;
-        background: linen;
-        border: 2px solid black;
+        background:  #2A304A;
+        font-family: "Source Sans Pro", Helvetica, sans-serif;
+        color: white;
+        border-radius: 2px;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
         display: flex;
         justify-content: space-around;
 
-        img{
-          width: 30%;
-          height: auto;
-          padding: 2.5%;
+        .headshot {
+          width: 40%;
+          margin-left: 2.5%;
+          margin-top: auto;
+          padding: 0;
         }
 
         @media only screen and (max-width: 500px){
           display: block;
           height: 400px;
+
           .headshot {
             width: 75%;
             position: top;
@@ -48,15 +57,20 @@
             margin-top: 5%;
             padding: 0;
           }
-          .aboutStatement{
-            height: 40%;
-            margin: 0px 10px 0px 10px;
-            .socialLinks{
-              height: auto;
-              margin-left: auto;
-              padding: 0px;
-              position: fixed;
-              position: bottom;
+        }
+
+        .aboutStatement{
+          height: 40%;
+          margin: 0px 10px 0px 10px;
+
+          .socialLinks{
+            height: auto;
+            margin-left: auto;
+            padding: 0px;
+            position: relative;
+
+            @media only screen and (max-width: 500px){
+              margin-top: 35%;
             }
           }
         }
@@ -111,24 +125,48 @@
         height: 200px;
         width: 75%;
         margin: auto;
-        background: linen;
-        border: 2px solid black;
+        background:  #2A304A;
+        font-family: "Source Sans Pro", Helvetica, sans-serif;
+        color: white;
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-around;
+        border-radius: 2px;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 
-        img{
-          width: 30%;
-          height: auto;
-          padding: 2.5%;
+        .headshot {
+          width: 40%;
+          margin-right: 2.5%;
+          margin-top: auto;
+          padding: 0;
         }
 
         @media only screen and (max-width: 500px){
-          flex-direction: column;
-          img {
-            width: 50%;
+          display: block;
+          height: 400px;
+
+          .headshot {
+            width: 75%;
+            position: top;
+            margin-left: 12.5%;
+            margin-top: 5%;
+            padding: 0;
+          }
+        }
+
+        .aboutStatement{
+          height: 40%;
+          margin: 0px 10px 0px 10px;
+
+          .socialLinks{
             height: auto;
-            margin: auto;
+            margin-left: auto;
+            padding: 0px;
+            position: relative;
+
+            @media only screen and (max-width: 500px){
+              margin-top: 30%;
+            }
           }
         }
       }
@@ -190,4 +228,10 @@ color: white;
 .fa-twitter {
 background: #55ACEE;
 color: white;
+}
+
+@media only screen and (max-width: 500px){
+  .navMobile{
+    height: 150px;
+  }
 }
