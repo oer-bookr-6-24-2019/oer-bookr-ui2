@@ -224,9 +224,11 @@ footer img {
   margin-bottom: 40px;
 }
 .cta .btn-lg {
-  width: 160px;
-  padding: 10px 16px;
+  padding: 10px 26px;
   font-size: 18px;
+  color: black;
+  text-decoration: none;
+  border: 1px solid #ffffff;
   border-radius: 6px;
   background-color: #7BB398;
 }
