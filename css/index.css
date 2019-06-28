@@ -102,7 +102,7 @@ header .header-button {
   margin: 0 auto;
   width: 260px;
   padding: 10px 16px;
-  font-size: 16px;
+  text-align: center;
   border-radius: 6px;
 }
 header .header-button:hover {
