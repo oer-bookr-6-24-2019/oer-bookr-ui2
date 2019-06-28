@@ -95,13 +95,16 @@ header {
 header h1 {
   text-align: center;
   width: 100%;
+  margin-bottom: 5px;
 }
 header .header-button {
-  height: 40px;
+  color: black;
+  height: 16px;
+  text-decoration: none;
   background-color: #7BB398;
-  margin: 0 auto;
-  width: 260px;
-  padding: 10px 16px;
+  margin: 0 auto 20px auto;
+  border: 1px solid #ffffff;
+  padding: 18px;
   text-align: center;
   border-radius: 6px;
 }
