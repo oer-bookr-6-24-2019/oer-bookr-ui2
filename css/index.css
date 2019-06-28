@@ -14,17 +14,14 @@ nav .nav-logo {
   text-align: center;
 }
 nav .nav-logo img {
-  margin-left: 30px;
+  margin-left: 15%;
   padding-bottom: 12px;
   width: 120px;
-}
-nav .nav-logo img:hover {
-  cursor: pointer;
 }
 nav .nav-links {
   height: 40px;
   text-align: center;
-  margin-right: 30px;
+  margin-right: 18px;
   padding-top: 5px;
 }
 nav .nav-links a {
@@ -95,14 +92,17 @@ header {
 header h1 {
   text-align: center;
   width: 100%;
+  margin-bottom: 5px;
 }
 header .header-button {
-  height: 40px;
+  color: black;
+  height: 16px;
+  text-decoration: none;
   background-color: #7BB398;
-  margin: 0 auto;
-  width: 260px;
-  padding: 10px 16px;
-  font-size: 16px;
+  margin: 0 auto 20px auto;
+  border: 1px solid #ffffff;
+  padding: 18px;
+  text-align: center;
   border-radius: 6px;
 }
 header .header-button:hover {
@@ -144,10 +144,14 @@ footer {
   display: flex;
   justify-content: center;
 }
+footer p {
+  padding-top: 5px;
+}
 footer img {
   height: 30px;
   width: 30px;
   margin: 10px 0 0 20px;
+  padding-top: 5px;
 }
 .landing-content {
   background-color: #2A304A;
